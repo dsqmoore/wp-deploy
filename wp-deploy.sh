@@ -24,5 +24,4 @@ do
     fi
 done < wp-deploy.conf
 
-rm -r wp-deploy-nightly
-rm -r wp-deploy-stable
+rm -r wp-deploy-{nightly,stable}
